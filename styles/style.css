@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(228, 120, 120);
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+
+a{
+    font-size: x-large;
+    color: rgb(255, 128, 195);
+
+}
+
+video{
+    width: 900px;
+    height: 900px;
+}
+
+div{
+    text-align: justify;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Estilos para los enlaces */
+.enlace {
+    text-decoration: none; /* Quita la subrayado por defecto de los enlaces */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Margen entre enlaces */
+    background-color: #3498db; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para cambiar el color al pasar el mouse */
+.enlace:hover {
+    background-color: #2980b9;
+}
+
+/* Contenedor para alinear enlaces en una línea */
+.enlaces-linea {
+    text-align: center; /* Alinear enlaces al centro */
+}
+
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

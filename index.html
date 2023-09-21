@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+    <link rel="icon" href="/assets/image.ico" type="image/ico">
+
+</head>
+<body>
+    <h1>Pagina inicial</h1>
+    <h2>Otro titulo</h2>
+    <a href="/contacto.html">Ir al contacto</a><div>
+    <a href="https://hotellastras.app">LA VOZ ASTURIAS</a><div>
+    <button id="cambiarColor">Cambiar color del fondo</button>
+
+    <script>
+        const cambiarColorButton = document.getElementById('cambiarColor');
+        const body = document.body;
+
+        cambiarColorButton.addEventListener('click', () => {
+            const randomColor = getRandomColor();
+            body.style.backgroundColor = randomColor;
+        });
+
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
